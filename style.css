@@ -241,7 +241,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 250px;
-    height: 330px;
+    height: 350px;
     box-shadow: 0px 10px 0px black;
     border: 3px solid black;
     padding-top: 20px;
@@ -254,7 +254,8 @@ body{
 .team-mem:hover{
     transform: scale(102%);
     transition: 0.7s ease;
-    box-shadow: 4px 5px 0px black;
+    box-shadow: 4px 5px 0px red;
+    border-color: red;
 }
 .team-mem > img{
     width: 70%;
@@ -265,6 +266,25 @@ body{
     font-family: "TextFont3", sans-serif;
     font-size: 30px;
     margin-top: 10px
+}
+
+.position-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    user-select: none;
+    font-family: "TextFont3", sans-serif;
+    font-size: 20px;
+}
+.position-div:hover{
+    transform: scale(102%);
+    transition: 0.7s ease;
 }
 
 
@@ -278,8 +298,11 @@ body{
 }
 .president-card:hover{
     box-shadow: 4px 5px 0 goldenrod;
+    border-color: goldenrod;
 }
-
+.president-card > .position-div{
+    border-color: goldenrod;
+}
 
 .announcements-news{
     display: flex;
@@ -301,7 +324,7 @@ body{
 .news-box > button{
     width: 30%;
     height: 55px;
-    background-color: aliceblue;
+    background-color: white;
     font-size: 30px;
     box-shadow: 0px 6px 0px black;
     border-radius: 100px;
@@ -370,7 +393,7 @@ body{
 .application-form > button{
     width: 30%;
     height: 55px;
-    background-color: aliceblue;
+    background-color: white;
     font-size: 30px;
     box-shadow: 0px 6px 0px black;
     border-radius: 100px;
@@ -441,9 +464,24 @@ footer{
     cursor: pointer;
 }
 .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: "TextFont", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.footer-content > span{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footer-content > img{
+    width: 150px;
+    height: auto;
+    margin-right: 450px;
 }
 @keyframes fadeAnimation {
     0%{
