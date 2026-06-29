@@ -1,4 +1,4 @@
-# Welcome to STEM Octiber Media Club website
+# Welcome to STEM October Media Club website
 ### This is the official website for the media club
 ## Tech Stack used: 
 1. HTML
