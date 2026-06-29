@@ -6,3 +6,7 @@
 3. fontawesome, CDNjs
 ## How it works?
 ### right now it si only the home page and some cards for the board and some sections.
+![Uploading image.png…]()
+![Uploading image.png…]()
+![Uploading image.png…]()
+
